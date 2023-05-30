@@ -1,7 +1,7 @@
 export const TitleBar = () => {
 	return (
-		<div className='text-center pb-10 mb-3 bg-opacity-20 bg-sky-500 grid grid-cols-3 shadow-md'>
-			<h1 className='col-start-2 mt-2 underline text-sky-700'><strong>Matt Nelson</strong></h1>
+		<div className='grid grid-cols-3 pb-10 mb-3 text-center shadow-md bg-opacity-70 bg-sky-800 backdrop-filter backdrop-blur-md'>
+			<h1 className='col-start-2 mt-2 text-black underline'><strong>Matt Nelson</strong></h1>
 		</div>
 	)
 }

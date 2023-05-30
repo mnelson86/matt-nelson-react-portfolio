@@ -10,9 +10,9 @@ const App = () => {
   const [nav, setNav] = useState('Home')
   return (
     <Fragment>
-      <div className='bg-slate-300 flex flex-col min-h-screen'>
+      <div className='flex flex-col min-h-screen bg-slate-300 bg-image'>
         <TitleBar />
-        <div className='flex-grow grid grid-cols-12 gap-5 m-5 mb-0'>
+        <div className='grid flex-grow grid-cols-12 gap-5 m-5 mb-0'>
           <div className='col-span-3 text-center'>
             <Menu nav={nav} setNav={setNav} />
           </div>
