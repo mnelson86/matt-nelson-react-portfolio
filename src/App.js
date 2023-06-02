@@ -3,10 +3,13 @@ import { Fragment, useState } from 'react';
 import { TitleBar } from './title-bar/TitleBar';
 import { Menu } from './menu/Menu';
 import { Home } from './home/Home';
-import { Footer } from './footer/Footer';
 import { Contact } from './contact/Contact';
+import { Skills } from './skills/Skills';
+import { Portfolio } from './portfolio/Portfolio';
+import { Interests } from './interests/Interests';
 
 const App = () => {
+  //this is basically a state-based Router
   const [nav, setNav] = useState('Home')
   return (
     <Fragment>
@@ -21,13 +24,27 @@ const App = () => {
               <Home />
             </div>
           )}
+          {nav === 'Skills' && (
+            <div className='col-span-9 text-center'>
+              <Skills />
+            </div>
+          )}
+          {nav === 'Portfolio' && (
+            <div className='col-span-9 text-center'>
+              <Portfolio />
+            </div>
+          )}
+          {nav === 'Interests' && (
+            <div className='col-span-9 text-center'>
+              <Interests />
+            </div>
+          )}
           {nav === 'Contact' && (
             <div className='col-span-9 text-center'>
-              <Contact nav={nav} setNav={setNav} />
+              <Contact />
             </div>
           )}
         </div>
-        <Footer />
       </div>
     </Fragment>
   );
