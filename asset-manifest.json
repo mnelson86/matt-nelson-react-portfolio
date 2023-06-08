@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/matt-nelson-react-portfolio/static/css/main.44d1940f.css",
+    "main.js": "/matt-nelson-react-portfolio/static/js/main.27438259.js",
+    "static/js/787.a2cb61a6.chunk.js": "/matt-nelson-react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/pexels-mahadee-hasan-15848901.jpg": "/matt-nelson-react-portfolio/static/media/pexels-mahadee-hasan-15848901.3bb68499473b75f3028d.jpg",
+    "index.html": "/matt-nelson-react-portfolio/index.html",
+    "main.44d1940f.css.map": "/matt-nelson-react-portfolio/static/css/main.44d1940f.css.map",
+    "main.27438259.js.map": "/matt-nelson-react-portfolio/static/js/main.27438259.js.map",
+    "787.a2cb61a6.chunk.js.map": "/matt-nelson-react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44d1940f.css",
+    "static/js/main.27438259.js"
+  ]
+}
