@@ -7,6 +7,26 @@ import { Contact } from './contact/Contact';
 import { Skills } from './skills/Skills';
 import { Portfolio } from './portfolio/Portfolio';
 import { Interests } from './interests/Interests';
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCQryE_8TkdN5xqTd4m57NhFNTLwDFJwkY",
+  authDomain: "reactportfolio-388618.firebaseapp.com",
+  projectId: "reactportfolio-388618",
+  storageBucket: "reactportfolio-388618.appspot.com",
+  messagingSenderId: "536450721696",
+  appId: "1:536450721696:web:2af95d2c8d06400003a6c5",
+  measurementId: "G-69EWHSC6LW"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
 const App = () => {
   //this is basically a state-based Router
