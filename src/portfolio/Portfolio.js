@@ -1,4 +1,7 @@
-import { BackgroundBox } from "../background-box/BackgroundBox";
+import { BackgroundBox } from '../background-box/BackgroundBox';
+import findAndDine from '../assets/find-and-dine.png'
+import weatherSearch from '../assets/weather-search.png'
+import turtleRace from '../assets/turtle-race.png'
 
 export const Portfolio = () => {
 	return (
@@ -9,7 +12,7 @@ export const Portfolio = () => {
 				<li className='p-3'>
 					<a className='hover:underline hover:text-sky-500' href='https://kellymedia.github.io/find-and-dine/' target='_blank' rel='noreferrer'>Find and Dine</a>
 					<div className='flex justify-center'>
-						<img className='w-full p-3' src='/find-and-dine.png' alt='find-and-dine'></img>
+						<img className='w-full p-3' src={findAndDine} alt='find-and-dine'></img>
 					</div>
 					<p>
 						Website that allows a user to search for recipes based on ingredients using the Edamam API.
@@ -20,7 +23,7 @@ export const Portfolio = () => {
 				<li className='p-3'>
 					<a className='hover:underline hover:text-sky-500' href='https://weather-search-322115.ue.r.appspot.com/' target='_blank' rel='noreferrer'>Weather Search</a>
 					<div className='flex justify-center'>
-						<img className='w-full p-3' src='/weather-search.png' alt='weather-search'></img>
+						<img className='w-full p-3' src={weatherSearch} alt='weather-search'></img>
 					</div>
 					<p>
 						Web App that allows a user to search the weather by name of location using the OpenWeather API. This was built using React.
@@ -29,7 +32,7 @@ export const Portfolio = () => {
 				<li className='p-3'>
 					<a className='hover:underline hover:text-sky-500' href='https://trinket.io/library/trinkets/dc028b0d2d' target='_blank' rel='noreferrer'>Turtle Race</a>
 					<div className='flex justify-center'>
-						<img className='w-full p-3' src='/turtle-race.png' alt='turtle-race'></img>
+						<img className='w-full p-3' src={turtleRace} alt='turtle-race'></img>
 					</div>
 					<p>
 						Python program that allows a user to guess which colored turtle they think will win the race, then has them move accross the track in random increments until one crosses the line.

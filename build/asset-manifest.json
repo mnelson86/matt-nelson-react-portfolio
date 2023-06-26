@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/matt-nelson-react-portfolio/static/css/main.44d1940f.css",
-    "main.js": "/matt-nelson-react-portfolio/static/js/main.5a497598.js",
+    "main.js": "/matt-nelson-react-portfolio/static/js/main.66e04d4d.js",
     "static/js/787.a2cb61a6.chunk.js": "/matt-nelson-react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/find-and-dine.png": "/matt-nelson-react-portfolio/static/media/find-and-dine.4fc8a7e678c4b96843a8.png",
+    "static/media/weather-search.png": "/matt-nelson-react-portfolio/static/media/weather-search.07fd42ac35a83afce62a.png",
     "static/media/pexels-mahadee-hasan-15848901.jpg": "/matt-nelson-react-portfolio/static/media/pexels-mahadee-hasan-15848901.3bb68499473b75f3028d.jpg",
     "index.html": "/matt-nelson-react-portfolio/index.html",
     "main.44d1940f.css.map": "/matt-nelson-react-portfolio/static/css/main.44d1940f.css.map",
-    "main.5a497598.js.map": "/matt-nelson-react-portfolio/static/js/main.5a497598.js.map",
+    "main.66e04d4d.js.map": "/matt-nelson-react-portfolio/static/js/main.66e04d4d.js.map",
     "787.a2cb61a6.chunk.js.map": "/matt-nelson-react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44d1940f.css",
-    "static/js/main.5a497598.js"
+    "static/js/main.66e04d4d.js"
   ]
 }
