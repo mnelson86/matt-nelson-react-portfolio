@@ -24,7 +24,7 @@ export const Interests = () => {
 					<p>
 						Favorite YouTube Channel:
 					</p>
-					<a className='underline hover:text-sky-500' href='https://www.youtube.com/@LinusTechTips' target='_blank' rel='noreferrer'>
+					<a className='underline hover:text-sky-500' href='https://www.youtube.com/c/LinusTechTips' target='_blank' rel='noreferrer'>
 						Linus Tech Tips
 					</a>
 					<p>
@@ -43,13 +43,36 @@ export const Interests = () => {
 					</p>
 				</li>
 				<li>
-					<p>Favorite Video Game:
+					<p>
+						Favorite Video Game:
 					</p>
 					<a className='underline hover:text-sky-500' href='https://en.wikipedia.org/wiki/The_Elder_Scrolls_V:_Skyrim' target='_blank' rel='noreferrer'>
 						The Elder Scrolls V: Skyrim
 					</a>
 					<p>
 						This is just about the most in-depth Fantasy RPG that has ever been made. One of the best examples of its genre.
+					</p>
+				</li>
+				<li>
+					<p>
+						Resource for Learning React:
+					</p>
+					<a className='underline hover:text-sky-500' href='https://www.youtube.com/c/Fireship' target='_blank' rel='noreferrer'>
+						Fireship Youtube Channel
+					</a>
+					<p>
+						A good source of information and tutorials for learning React tools and skills as well as many other Dev tools and languages.
+					</p>
+				</li>
+				<li>
+					<p>
+						Resource for Learning Angular:
+					</p>
+					<a className='underline hover:text-sky-500' href='https://www.youtube.com/c/joshuamorony' target='_blank' rel='noreferrer'>
+						Joshua Morony Youtube Channel
+					</a>
+					<p>
+						An entertaining and infromative source of information on Angular tools, skills, and best practices.
 					</p>
 				</li>
 			</ul>
