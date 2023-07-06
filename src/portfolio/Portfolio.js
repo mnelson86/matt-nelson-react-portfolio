@@ -17,7 +17,7 @@ export const Portfolio = () => {
 					<p>
 						Website that allows a user to search for recipes based on ingredients using the Edamam API.
 						For added "flavor", it generates a new, fresh image from the Pexels API on page load!
-						Built using HTML, CSS, ands JavaScript.
+						Built using HTML, CSS, and JavaScript.
 					</p>
 				</li>
 				<li className='p-3'>

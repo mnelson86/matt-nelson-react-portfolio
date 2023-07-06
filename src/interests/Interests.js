@@ -72,7 +72,7 @@ export const Interests = () => {
 						Joshua Morony Youtube Channel
 					</a>
 					<p>
-						An entertaining and infromative source of information on Angular tools, skills, and best practices.
+						An entertaining and informative source of education on Angular tools, skills, and best practices.
 					</p>
 				</li>
 			</ul>
